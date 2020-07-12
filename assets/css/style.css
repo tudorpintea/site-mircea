@@ -504,64 +504,7 @@ p {
       .single-slider .slider-product-content p br {
         display: none; } }
 
-.slider-social {
-  position: absolute;
-  bottom: 20px;
-  right: 30px;
-  width: 100%; }
-  @media only screen and (min-width: 1400px) {
-    .slider-social {
-      padding: 0 100px; } }
-  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-    .slider-social {
-      padding: 0 30px; } }
-  .slider-social .social {
-    position: relative; }
-    .slider-social .social li {
-      display: inline-block;
-      margin: 0 5px; }
-      .slider-social .social li a {
-        font-size: 18px;
-        color: #ddd;
-        border: 1px solid #ddd;
-        width: 30px;
-        line-height: 32px;
-        height: 30px;
-        text-align: center;
-        -webkit-transition: all 0.4s ease-out 0s;
-        -moz-transition: all 0.4s ease-out 0s;
-        -ms-transition: all 0.4s ease-out 0s;
-        -o-transition: all 0.4s ease-out 0s;
-        transition: all 0.4s ease-out 0s; }
-        .slider-social .social li a:hover {
-          color: #fe7865;
-          border-color: #fe7865; }
-    .slider-social .social::before {
-      position: absolute;
-      content: '';
-      width: 70%;
-      height: 1px;
-      background-color: #fe7865;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -o-transform: translateY(-50%);
-      transform: translateY(-50%);
-      left: 0; }
-      @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .slider-social .social::before {
-          width: 63%; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .slider-social .social::before {
-          width: 48%; } }
-      @media (max-width: 767px) {
-        .slider-social .social::before {
-          width: 35%;
-          left: 60px; } }
-      @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .slider-social .social::before {
-          width: 65%; } }
+
 
 /*===========================
     4.DESCOUNT PRODUCT css 
